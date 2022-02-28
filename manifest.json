@@ -1,0 +1,11 @@
+{
+"manifest_version" :3,
+"version":"1.0",
+"name":"chrome_ext",
+"action":
+ {
+   "default_popup":"ext.html",
+   "default_icon":"10.png"
+ }
+
+}
