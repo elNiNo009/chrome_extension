@@ -9,7 +9,11 @@ const uLEl =document.getElementById("ul-el")
 const inputBtn =document.getElementById("input-btn")
 
 //const cantnot be reassigned
-
+let leadsfromLocalStoarege=JSON.parse(localStorage.getItem("myLeads"))
+if(leadsfromLocalStoarege)
+{
+  render()
+}
 inputBtn.addEventListener("click",function()
    {
       myLeads.push(inputEl.value)
